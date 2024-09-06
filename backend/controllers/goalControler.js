@@ -26,7 +26,7 @@ const updateGoal = asyncHandler(async (req, res) => {
 })
 
 
-const deleteGoal =asyncHandler(async (req, res) => {
+const deleteGoal = asyncHandler(async (req, res) => {
     res.status(200).json({
         message: `Delete goal ${req.params.id}`
     })
